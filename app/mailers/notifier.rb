@@ -1,5 +1,5 @@
 class Notifier < ActionMailer::Base
-default :from => "madhujenng@gmail.com"
+default :from => "rubyapp12@gmail.com"
  
 def email_friend(article, sender_name, receiver_email)
 @article = article

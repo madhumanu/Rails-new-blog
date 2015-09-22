@@ -23,8 +23,8 @@ ActionMailer::Base.smtp_settings = {
 :enable_starttls_auto => true,
 :port => 587,
 :authentication => :plain,
-:user_name => "madhujenng@gmail.com",
-:password => '9342997599'
+:user_name => "rubyapp12@gmail.com",
+:password => 'zoomzoom12'
 }
  
 
