@@ -13,9 +13,9 @@ def comment_added(comment)
 mail :to => @article.user.email, :subject => "New comment for '#{@article.title}'"
 end
 
- def registration_confirmation(user)
-    @user = user
-    mail :to => "<#{@user.email}>", :subject => "Registration Confirmation"
- end
+def registration_confirmation(user)
+   @user = user
+   mail :to => "<#{@user.email}>", :subject => "Registration Confirmation"
+end
 
 end
