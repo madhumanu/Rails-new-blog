@@ -18,5 +18,4 @@ end
     mail :to => "<#{@user.email}>", :subject => "Registration Confirmation"
  end
 
-
 end
